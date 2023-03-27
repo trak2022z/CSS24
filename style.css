@@ -1,0 +1,45 @@
+.container {
+			display: grid;
+			grid-template-columns: repeat(12, 1fr);
+			grid-gap: 20px;
+			max-width: 1200px;
+			margin: 0 auto;
+		}
+
+		.header {
+			grid-column: 1 / span 12;
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+		}
+
+		.sidebar {
+			grid-column: 1 / span 3;
+			background-color: #ddd;
+			padding: 20px;
+		}
+
+		.main-content {
+			grid-column: 4 / span 8;
+			background-color: #fff;
+			padding: 20px;
+		}
+
+		.featured-post {
+			grid-column: 1 / span 8;
+			background-color: #eee;
+			padding: 20px;
+		}
+
+		.secondary-post {
+			grid-column: 9 / span 4;
+			background-color: #eee;
+			padding: 20px;
+		}
+
+		.footer {
+			grid-column: 1 / span 12;
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+		}
